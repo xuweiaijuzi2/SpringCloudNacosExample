@@ -12,6 +12,7 @@
         <module>nacos_provider_example9001</module>
         <module>nacos_consumer_rest_emplate_9101</module>
         <module>nacos_consumer_openfeign_9102</module>
+        <module>nacos_config_example_9200</module>
     </modules>
 
     <properties>

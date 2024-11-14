@@ -24,6 +24,10 @@ public class ConfigClientController {
     @Value("${config.info}")
     private String configInfo;
 
+    /**
+     * 这是一个javadoc示例
+     * @return 返回值是provider提高
+     */
     @GetMapping("/hello")
     public String hello(){
         System.out.println("------nacos config is running------");
